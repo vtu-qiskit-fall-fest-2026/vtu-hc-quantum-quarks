@@ -307,6 +307,6 @@ Released under the [MIT License](LICENSE). See `LICENSE` for details.
 **Quantum Quarks** · Team ID `VTU-QFF-HC-0159` · Tier `Online`
 · Built with ⚛️ Qiskit for the VTU-QFF Hackathon
 
-[⬆ Back to Top](#Quantum Quarks)
+[⬆ Back to Top](#quantum-quarks)
 
 </div>
