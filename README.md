@@ -61,13 +61,9 @@ Optional: add a plain list instead of the table above.
 ## ❓ Problem Statement
 
 <QUANTUM COMPUTING IS ON THE CLOUD, BUT BEGINNERS CAN'T UNDERSTAND THE RESULTS. 
-1. 
-2. 
-3. 
-Confusing output: results come back as raw codes like 00: 498. 
-Noisy machines: real quantum hardware makes errors, so results never look perfect. 
-No 
-way to tell why: a beginner can’t tell whether the code is wrong or the hardware is noisy. 
+1. Confusing output: results come back as raw codes like 00: 498. 
+2. Noisy machines: real quantum hardware makes errors, so results never look perfect. 
+3. No way to tell why: a beginner can’t tell whether the code is wrong or the hardware is noisy. 
 Many students give up before they get a single meaningful result. 
 There is a need for a cloud-based tool that runs a circuit on ideal and noisy 
 simulators, shows the difference clearly, and explains the results in plain language.!--
@@ -76,11 +72,18 @@ who experiences it, and why does it matter. Link to the official problem
 statement from the brief if one applies.
 -->
 
-**Problem:** _Describe the problem in 2–3 sentences._
+**Problem:** Many students give up before they get a single meaningful result. 
+There is a need for a cloud-based tool that runs a circuit on ideal and noisy 
+simulators, shows the difference clearly, and explains the results in plain language.!--
+State the problem you are solving. Be specific: what is broken or missing,
+who experiences it, and why does it matter. Link to the official problem
+statement from the brief if one applies.
+-->
 
-**Why it matters:** _Explain the impact or opportunity._
+**Why it matters:** MAKE QUANTUM EXPERIMENTS EASIER TO RUN, INSPECT AND UNDERSTAND FOR STUDENTS AND 
+FIRST-TIME USERS.
 
-**Track / Category:** _Online / Offline · Track 1 / Track 2 · <domain>_
+**Track / Category:** _Online/ Track: Quantum Cloud-Based Application 
 
 ---
 
