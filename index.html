@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      // Gracefully ignore benign Vite HMR WebSocket closure in cloud sandbox environment
+      window.addEventListener('unhandledrejection', function(event) {
+        var reason = event && event.reason;
+        var msg = (reason && (reason.message || reason.stack)) || String(reason || '');
+        if (msg.indexOf('WebSocket') !== -1 || msg.indexOf('@vite/client') !== -1 || msg.indexOf('vite-hmr') !== -1) {
+          event.preventDefault();
+          event.stopImmediatePropagation();
+        }
+      });
+      window.addEventListener('error', function(event) {
+        var msg = (event && (event.message || event.filename)) || '';
+        if (typeof msg === 'string' && (msg.indexOf('@vite/client') !== -1 || msg.indexOf('WebSocket') !== -1)) {
+          event.preventDefault();
+          event.stopImmediatePropagation();
+        }
+      });
+    </script>
+    <title>QuantumPilot - Beginner Cloud Studio · Quantum Simulator</title>
+    <meta name="description" content="QuantumPilot: simulated quantum circuit execution, noise comparison, and beginner AI explanations." />
+    <meta property="og:title" content="QuantumPilot - Beginner Cloud Studio · Quantum Simulator" />
+    <meta property="og:description" content="QuantumPilot: simulated quantum circuit execution, noise comparison, and beginner AI explanations." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-[#0B0D17] text-[#F3F4FA] selection:bg-[#8B7CFF]/30 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

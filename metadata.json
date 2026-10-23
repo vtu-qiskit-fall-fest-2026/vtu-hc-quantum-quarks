@@ -1,0 +1,8 @@
+{
+  "name": "QuantumPilot",
+  "description": "Beginner Cloud Studio for simulating quantum circuits with guided analysis and explanations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
