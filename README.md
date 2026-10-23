@@ -84,7 +84,7 @@ charts, a noise gap score, and an AI explanation in plain language.
 
 **Solution:** Pick a Run See it on ideal and noisy circuit: Coin Flip or Bell State. simulators, using a Python and Qiskit backend. charts, a noise gap score, and an AI explanation in plain language. 
 
-**Key idea:** QuantumPilot: a cloud assistant that makes quantum results easy to understand.
+**Key idea:** To build a QuantumPilot: a cloud assistant that makes quantum results easy to understand.
 
 **Why this works:** Beginner-friendly: no quantum background needed. 
 Shows noise clearly: ideal vs noisy side by side.
@@ -95,10 +95,19 @@ Extendable: real IBM hardware is the next step.
 ---
 
 ## 🧩 Approach & Architecture
-
-<!--
-Walk through how it works. A simple pipeline diagram in text or Mermaid is ideal.
--->
+BACKEND:
+QISKIT FALL FEST 2026 8: 
+IBM Quantum:
+PYTHON + FASTAPI EXPOSES /HEALTH, /EXAMPLES AND /ANALYZE/{EXAMPLE} ENDPOINTS. 
+QUANTUM ENGINE: 
+QISKIT BUILDS THE CIRCUITS; QISKIT AER RUNS IDEAL AND NOISY SIMULATIONS. 
+RESULT PROCESSING: 
+RETURNS CIRCUIT DETAILS, SHOT COUNT, IDEAL/NOISY COUNTS, GAP PERCENTAGE AND A SIMPLE LABEL. 
+DEPLOYMENT:
+API DEPLOYED ON RENDER; BROWSER TESTS CONFIRMED CIRCUIT LISTING AND COIN-FLIP ANALYSIS. 
+CURRENT LIMITATION:
+LIVE IBM HARDWARE JOBS, REAL-TIME BACKEND RANKING AND A CONNECTED GENAI EXPLANATION SERVICE NEED 
+SEPARATE VERIFICATION BEFORE BEING PRESENTED AS IMPLEMENTED.
 
 ```mermaid
 flowchart LR
