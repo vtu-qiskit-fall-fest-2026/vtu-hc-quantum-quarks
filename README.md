@@ -60,25 +60,14 @@ Optional: add a plain list instead of the table above.
 
 ## ❓ Problem Statement
 
-<QUANTUM COMPUTING IS ON THE CLOUD, BUT BEGINNERS CAN'T UNDERSTAND THE RESULTS. 
+QUANTUM COMPUTING IS ON THE CLOUD, BUT BEGINNERS CAN'T UNDERSTAND THE RESULTS. 
 1. Confusing output: results come back as raw codes like 00: 498. 
 2. Noisy machines: real quantum hardware makes errors, so results never look perfect. 
 3. No way to tell why: a beginner can’t tell whether the code is wrong or the hardware is noisy. 
-Many students give up before they get a single meaningful result. 
-There is a need for a cloud-based tool that runs a circuit on ideal and noisy 
-simulators, shows the difference clearly, and explains the results in plain language.!--
-State the problem you are solving. Be specific: what is broken or missing,
-who experiences it, and why does it matter. Link to the official problem
-statement from the brief if one applies.
--->
 
 **Problem:** Many students give up before they get a single meaningful result. 
 There is a need for a cloud-based tool that runs a circuit on ideal and noisy 
-simulators, shows the difference clearly, and explains the results in plain language.!--
-State the problem you are solving. Be specific: what is broken or missing,
-who experiences it, and why does it matter. Link to the official problem
-statement from the brief if one applies.
--->
+simulators, shows the difference clearly, and explains the results in plain language.
 
 **Why it matters:** MAKE QUANTUM EXPERIMENTS EASIER TO RUN, INSPECT AND UNDERSTAND FOR STUDENTS AND 
 FIRST-TIME USERS.
@@ -89,16 +78,19 @@ FIRST-TIME USERS.
 
 ## 💡 Proposed Solution
 
-<!--
-Describe your solution. Keep it concrete: the core idea, the user flow, and
-the quantum/ML technique you are applying.
--->
+QuantumPilot: a cloud assistant that makes quantum results easy to understand. 
+Pick a Run See it on ideal and noisy circuit: Coin Flip or Bell State. simulators, using a Python and Qiskit backend. 
+charts, a noise gap score, and an AI explanation in plain language. 
 
 **Solution:** _In 2–3 sentences, describe what you built._
 
-**Key idea:** _The one-line technical summary of your approach._
+**Key idea:** QuantumPilot: a cloud assistant that makes quantum results easy to understand.
 
-**Why this works:** _How your approach addresses the problem statement._
+**Why this works:** Beginner-friendly: no quantum background needed. 
+Shows noise clearly: ideal vs noisy side by side. 
+Cloud-based: nothing to install. 
+Honest: simulator-based, with no speedup claimed. 
+Extendable: real IBM hardware is the next step.
 
 ---
 
