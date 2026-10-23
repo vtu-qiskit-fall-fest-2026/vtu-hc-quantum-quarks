@@ -82,12 +82,12 @@ QuantumPilot: a cloud assistant that makes quantum results easy to understand.
 Pick a Run See it on ideal and noisy circuit: Coin Flip or Bell State. simulators, using a Python and Qiskit backend. 
 charts, a noise gap score, and an AI explanation in plain language. 
 
-**Solution:** _In 2–3 sentences, describe what you built._
+**Solution:** Pick a Run See it on ideal and noisy circuit: Coin Flip or Bell State. simulators, using a Python and Qiskit backend. charts, a noise gap score, and an AI explanation in plain language. 
 
 **Key idea:** QuantumPilot: a cloud assistant that makes quantum results easy to understand.
 
 **Why this works:** Beginner-friendly: no quantum background needed. 
-Shows noise clearly: ideal vs noisy side by side. 
+Shows noise clearly: ideal vs noisy side by side.
 Cloud-based: nothing to install. 
 Honest: simulator-based, with no speedup claimed. 
 Extendable: real IBM hardware is the next step.
