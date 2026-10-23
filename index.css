@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+:root {
+  --bg-canvas: #0B0D17;
+  --surface-card: #12152A;
+  --surface-subtle: #171B34;
+  --surface-elevated: #1D2140;
+  --primary-violet: #8B7CFF;
+  --accent-pink: #F472B6;
+  --ideal-bar: #7C9CFF;
+  --text-primary: #F3F4FA;
+  --text-secondary: #A4A8C0;
+  --text-muted: #6E7391;
+  --status-low: #10B981;
+  --status-medium: #F59E0B;
+  --status-high: #EF4444;
+}
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-canvas);
+  color: var(--text-primary);
+  overflow-x: hidden;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0B0D17;
+}
+::-webkit-scrollbar-thumb {
+  background: #1D2140;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2D335A;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.22s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
